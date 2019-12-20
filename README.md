@@ -28,3 +28,7 @@ for k, v in dict
 ```
 
 Internally, our preference is Python and [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html "Boto3"). In which case, you would pull from S3 with [this](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html#S3.Client.get_object). However, you can use whatever AWS SDK toolset you would like.
+
+
+#### Expectation:
+We will be able to run your code locally to print out the desired sentence. A valid result will not utilize third party tools, such as [s3cmd](https://s3tools.org/s3cmd "s3cmd").
